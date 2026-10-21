@@ -1,15 +1,15 @@
 <!doctype html>
 <html>
 <head>
-	<title>M2-US | Multi-Task and Multi-Domain Ultrasound Dataset</title>
+	<title>M2-US | Multi-Domain and Multi-Task Ultrasound Dataset</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="shortcut icon" type="image/x-icon" href="resources/archive.svg">
+	<link rel="shortcut icon" type="image/x-icon" href="resources/m2-us-badge.png">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   	<link href="style.css" rel="stylesheet" type="text/css">
-	<meta name="description" content="M2-US is a multi-task and multi-domain ultrasound dataset supporting segmentation, classification, detection, and regression tasks.">
-	<meta property="og:title" content="M2-US: Multi-Task and Multi-Domain Ultrasound Dataset">
+	<meta name="description" content="M2-US is a multi-domain and multi-task ultrasound dataset supporting segmentation, classification, detection, and regression tasks.">
+	<meta property="og:title" content="M2-US: Multi-Domain and Multi-Task Ultrasound Dataset">
 	<meta property="og:description" content="An open ultrasound dataset and benchmark for multi-task ultrasound image analysis.">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="https://kit.fontawesome.com/ad96f96272.js" crossorigin="anonymous"></script>
@@ -86,21 +86,36 @@
 
 		<!-- top - author names, affiliation and links -->
 		<center>
-			<h1>Paper Name</h1>
+			<h1>M2-US: A Large-scale Multi-domain and Multi-task Ultrasound Image Dataset</h1>
 			<h4>Published in</h4>
 			<div class="container">
 				<div class="row justify-content-md-center">
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author 1</a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Fangyijie Wang</a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author 2</a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Tanya Akumu</a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author 3</a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Vien Ngoc Dang</a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author 4</a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Amelia Jiménez-Sánchez</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Jiancheng Yang</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Guénolé Silvestre</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Karim Lekadir</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Jieyun Bai</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Kathleen Curran</a></span>
 					</div>
 				</div>
 			</div>
@@ -127,23 +142,20 @@
 		<center>
 			<div class="container" style="margin-top: 20px;">
 				<div class="row justify-content-md-center">
-					<p  style="font-size:18px;"><strong>Teaser Image</strong></p>
+					<!-- <p  style="font-size:18px;"><strong>Teaser Image</strong></p> -->
 				</div>
 				<div class="row justify-content-md-center">
-					<img alt="" id="teaser" src="./resources/teaser.png" style="max-width: 375px;"/>
+					<img alt="" id="teaser" src="./resources/isbi_dataset_overview.pdf" style="max-width: 375px;"/>
 				</div>
 			</div>
 		<h1 style="margin-top: 10px;">Abstract</h1>
 		</center>
 		<p>
-			An abstract which describe the paper's contributions and importance in few short sentences. 
+			M2-US is a large-scale multi-domain, multi-task ultrasound dataset designed to support the development and systematic evaluation of generalizable ultrasound AI models. It comprises 67,620 ultrasound images from public datasets and retrospectively collected clinical cohorts, covering more than 30 anatomical structures and pathological targets across diverse clinical applications, including maternal-fetal, cardiac, vascular, abdominal, pulmonary, breast, thyroid, and gynecological imaging. M2-US supports four prediction tasks, including segmentation, classification, object detection, and landmark regression, organized into 26 subtasks. It provides standardized annotations, metadata, and predefined data partitions to facilitate reproducible benchmarking. Baseline experiments using DINOv3 demonstrate the dataset's applicability to heterogeneous ultrasound analysis tasks. By integrating diverse clinical domains and prediction tasks within a unified benchmark, M2-US supports research in multi-task learning, foundation model adaptation, and cross-domain generalization.
 		</p>
 		<!-- end abstract and teaser image-->
 
 		<!-- video of a talk about your paper (youtube embedding) -->
-		<center><h1>Talk</h1></center>
-		<p align="center">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>		</p>
 
 		<!-- Images -->
 		<hr id="images">
@@ -399,179 +411,6 @@
 
 		<!-- end Images -->
 
-		<!-- Audio -->
-		<hr id="audio">
-		<center><h1 style="margin-top: 65px;">Some Audio Files Demonstrating Your Paper</h1></center>
-		<p>The above can also also be applied for different content sources, as audio</p>
-		<center>
-			<div class="container">
-				<div class="row justify-content-md-center">
-					<!-- dropdown audio -->
-					<div class="col-sm">
-						<audio controls id="dropdown_audio">
-							<source src="./resources/audio/audio1.mp4" type="audio/mp4">
-						  </audio>
-						<div class="btn-group my-btn" id="myAudioDropdown">
-							<button type="button" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'" class="btn btn-info">Dropdown</button>
-							<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-								<span class="visually-hidden">Toggle Dropdown</span>
-							</button>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio2.mp4'">2</a></li>
-								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio3.mp4'">3</a></li>
-								<li><hr class="dropdown-divider"></li> 
-								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'">1</a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end dropdown audio -->
-					<!-- audio carousel -->
-					<div class="col-sm" style="max-width: 550px;">
-							<center>
-								<div id="myAudioCarousel" class="carousel" data-ride="carousel" data-interval="false">
-									<ol class="carousel-indicators audio-carousel-indicators">
-									<li data-target="#myAudioCarousel" data-slide-to="0" class="active"></li>
-									<li data-target="#myAudioCarousel" data-slide-to="1"></li>
-									<li data-target="#myAudioCarousel" data-slide-to="2"></li>
-									</ol>
-									<div class="carousel-inner">
-									<div class="carousel-item active" >
-										<audio controls>
-											<source src="./resources/audio/audio1.mp4" type="audio/mp4">
-										  </audio>
-										  <div class="position-relative text-center">
-											text describing the audio file
-										  </div>
-									</div>
-									<div class="carousel-item">
-										<audio controls>
-											<source src="./resources/audio/audio2.mp4" type="audio/mp4">
-										  </audio>
-										  <div class="position-relative text-center">
-											which changes
-										  </div>
-									</div>
-									<div class="carousel-item">
-										<audio controls>
-											<source src="./resources/audio/audio3.mp4" type="audio/mp4">
-										  </audio>
-										  <div class="position-relative text-center">
-											on click	
-										  </div>
-									</div>
-									</div>
-									<a class="carousel-control-prev" href="#myAudioCarousel" role="button" data-slide="prev">
-										<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
-									<span class="sr-only">Previous</span>
-									</a>
-									<a class="carousel-control-next" href="#myAudioCarousel" role="button" data-slide="next">
-										<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
-									<span class="sr-only">Next</span>
-									</a>
-								</div>
-							</center>
-					</div>
-					<!-- end audio carousel -->
-					</div>
-			</div>
-			</center>
-		<br>
-		<!-- end Audio -->
-
-		<!-- Video -->
-		<hr id="video">
-		<center><h1 style="margin-top: 65px;">Some Video Demonstrating Your Paper</h1></center>
-		<p>or video</p>
-		<center>
-			<div class="container">
-				<div class="row justify-content-md-center">
-					<!-- video dropdown -->
-					<div class="col-sm" style="max-width: 550px;">
-						<video controls id="dropdown_video">
-							<source src="./resources/video/video1.mp4" type="video/mp4">
-							</video>
-						<div class="btn-group my-btn" id="myVideoDropdown">
-							<button type="button" onclick="document.getElementById('dropdown_video').src='./resources/video/video1.mp4'" class="btn btn-info">Dropdown</button>
-							<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-								<span class="visually-hidden">Toggle Dropdown</span>
-							</button>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_video').src='./resources/video/video2.mp4'">2</a></li>
-								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_video').src='./resources/video/video3.mp4'">3</a></li>
-								<li><hr class="dropdown-divider"></li> 
-								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_video').src='./resources/video/video1.mp4'">1</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!-- end video dropdown -->
-
-				<!-- video carousel -->
-				<div class="row justify-content-md-center" style="margin-top: 25px;">
-					<div class="col-sm" style="max-width: 750px;">
-						<center>
-							<div id="myVideoCarousel" class="carousel" data-ride="carousel" data-interval="false">
-								<ol class="carousel-indicators audio-carousel-indicators">
-								<li data-target="#myVideoCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#myVideoCarousel" data-slide-to="1"></li>
-								<li data-target="#myVideoCarousel" data-slide-to="2"></li>
-								</ol>
-								<div class="carousel-inner">
-								<div class="carousel-item active" >
-									<video controls id="dropdown_video">
-										<source src="./resources/video/video1.mp4" type="video/mp4">
-										</video>
-									<p>some text describing</p>
-								</div>
-								<div class="carousel-item">
-									<video controls id="dropdown_video">
-										<source src="./resources/video/video2.mp4" type="video/mp4">
-										</video>
-									<p>the video</p>
-								</div>
-								<div class="carousel-item">
-									<video controls id="dropdown_video">
-										<source src="./resources/video/video3.mp4" type="video/mp4">
-										</video>
-								</div>
-								</div>
-								<a class="carousel-control-prev" href="#myVideoCarousel" role="button" data-slide="prev">
-									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
-								<span class="sr-only">Previous</span>
-								</a>
-								<a class="carousel-control-next" href="#myVideoCarousel" role="button" data-slide="next">
-									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
-								<span class="sr-only">Next</span>
-								</a>
-							</div>
-						</center>
-					</div>	
-				</div>
-				<!-- end video carousel -->
-				<!-- video overlay -->
-				<div class="row justify-content-md-center" style="margin-top: 50px;">
-					<div class="col-sm" style="max-width: 750px;">
-						<center>
-							<div class="overlay-container">
-								<video playsinline autoplay muted loop>
-									<source src="./resources/video/video3.mp4" type="video/mp4">
-								</video>
-								<div class="overlay-video">
-									<video playsinline autoplay muted loop>
-										<source src="./resources/video/video2.mp4" type="video/mp4">
-									</video>
-									<p class="text-info">a text describing the overlay video</p>
-								</div>
-							</div>	
-						</center>
-					</div>
-				</div>
-				<!-- end video overlay -->
-			</div>
-			</center>
-		<br>
-		<!-- end Video -->
-
 		<!-- Paper -->
 		<hr id="paper">
 		<div class="container">
@@ -640,7 +479,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td style="font-size:14pt; text-align: center;"
+						<td style="font-size:14pt; text-align: center;">
 							<span><a class="btn btn-outline-primary" href='resources/supp.pdf' role="button" style="font-size: 16px;">Supplementary</a></span>
 						</td>
 						<td style="font-size:14pt; text-align: center;">
