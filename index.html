@@ -87,7 +87,7 @@
 		<!-- top - author names, affiliation and links -->
 		<center>
 			<h1>M2-US: A Large-scale Multi-domain and Multi-task Ultrasound Image Dataset</h1>
-			<h4>Published in</h4>
+			<!-- <h4>Published in</h4> -->
 			<div class="container">
 				<div class="row justify-content-md-center">
 					<div class="col-md-auto">
@@ -151,265 +151,504 @@
 		<h1 style="margin-top: 10px;">Abstract</h1>
 		</center>
 		<p>
-			M2-US is a large-scale multi-domain, multi-task ultrasound dataset designed to support the development and systematic evaluation of generalizable ultrasound AI models. It comprises 67,620 ultrasound images from public datasets and retrospectively collected clinical cohorts, covering more than 30 anatomical structures and pathological targets across diverse clinical applications, including maternal-fetal, cardiac, vascular, abdominal, pulmonary, breast, thyroid, and gynecological imaging. M2-US supports four prediction tasks, including segmentation, classification, object detection, and landmark regression, organized into 26 subtasks. It provides standardized annotations, metadata, and predefined data partitions to facilitate reproducible benchmarking. Baseline experiments using DINOv3 demonstrate the dataset's applicability to heterogeneous ultrasound analysis tasks. By integrating diverse clinical domains and prediction tasks within a unified benchmark, M2-US supports research in multi-task learning, foundation model adaptation, and cross-domain generalization.
+			<b>M2-US</b> is a large-scale multi-domain, multi-task ultrasound dataset designed to support the development and systematic evaluation of generalizable ultrasound AI models. It comprises <b>67,620</b> ultrasound images from public datasets and retrospectively collected clinical cohorts, covering more than <b>30</b> anatomical structures and pathological targets across diverse clinical applications, including maternal-fetal, cardiac, vascular, abdominal, pulmonary, breast, thyroid, and gynecological imaging. M2-US supports four prediction tasks, including segmentation, classification, object detection, and landmark regression, organized into <b>26</b> subtasks. It provides standardized annotations, metadata, and predefined data partitions to facilitate reproducible benchmarking. Baseline experiments using DINOv3 demonstrate the dataset's applicability to heterogeneous ultrasound analysis tasks. By integrating diverse clinical domains and prediction tasks within a unified benchmark, M2-US supports research in multi-task learning, foundation model adaptation, and cross-domain generalization.
 		</p>
 		<!-- end abstract and teaser image-->
 
 		<!-- video of a talk about your paper (youtube embedding) -->
 
-		<!-- Images -->
-		<hr id="images">
-		<center><h1 style="margin-top: 65px;">Some Images Demonstrating Your Paper</h1></center>
-		<p>Some explanation about the displayed images.<br>They can either be static</p>
-		
-		<!-- static images -->
-		<center>
-			<div class="container">
-				<div class="row justify-content-md-center">
-					<div class="col-md-auto" style="padding: 1px;">
-						<img alt="" src="./resources/image1.png" style="max-width: 375px;"/>
-					</div>
-					<div class="col-md-auto" style="padding: 1px;">
-						<img alt="" src="./resources/image2.png" style="max-width: 375px;"/>
-					</div>
-				</div>
-			</div>
-		</center>
-		<!-- end static images -->
 
-		<!-- images with drop down menu -->
-		<div class="container">
-			<p  style="margin-top: 35px;">
-			Or can be chosen from a dropdown menu, for some easy comparison between different methods for example 
-			</p>
-		</div>
-		<!-- dropdown -->
-		<center>
-		<div class="container">
-			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-3">
-				<div class="col">
-					<img alt="" id="dropdown1" class="round" src="./resources/dropdown/dropdown1/1.png" width="100%" style="padding-right: 2%; max-width:250px;"/>
-					<div class="btn-group my-btn" id="myDropdown">
-						<button type="button" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/1.png'" class="btn btn-info">Dropdown</button>
-						<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-							<span class="visually-hidden">Toggle Dropdown</span>
-						</button>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/2.png'">2</a></li>
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/3.png'">3</a></li>
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/4.png'">4</a></li>
-							<li><hr class="dropdown-divider"></li> 
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/1.png'">1</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col">
-					<img alt="" id="dropdown2" class="round" src="./resources/dropdown/dropdown2/1.png" width="100%" style="padding-right: 2%; max-width:250px;"/>
-					<div class="btn-group my-btn" id="myDropdown">
-						<button type="button" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/1.png'" class="btn btn-info">Dropdown</button>
-						<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-							<span class="visually-hidden">Toggle Dropdown</span>
-						</button>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/2.png'">2</a></li>
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/3.png'">3</a></li>
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/4.png'">4</a></li>
-							<li><hr class="dropdown-divider"></li> 
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/1.png'">1</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col">
-					<img alt="" id="dropdown3" class="round" src="./resources/dropdown/dropdown3/1.png" width="100%" style="padding-right: 2%; max-width:250px;"/>
-					<div class="btn-group my-btn" id="myDropdown">
-						<button type="button" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/1.png'" class="btn btn-info">Dropdown</button>
-						<button type="button" class="btn my-btn-info btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-							<span class="visually-hidden">Toggle Dropdown</span>
-						</button>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/2.png'">2</a></li>
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/3.png'">3</a></li>
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/4.png'">4</a></li>
-							<li><hr class="dropdown-divider"></li> 
-							<li><a class="dropdown-item" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/1.png'">1</a></li>
-						</ul>
-					</div>
-				</div>
-		</div>
-		</center>
-		<!-- end images with dropdown menu -->
+		<!-- Dataset Statistics -->
+		<section id="statistics" class="container my-5">
 
-		<!-- image carousel -->
-		<div class="container">
-			<p  style="margin-top: 35px;">
-			Using image carousel, images can be fading into each other automatically, or can be switched using arrows 
-			</p>
-		</div>
-		<div class="container">
-			<div class="row justify-content-md-center">
-				<!-- automatically fade -->
-				<div class="col-sm" style="max-width: 550px;">
-					<center>
-						<div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-							<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block" width="100%" src="./resources/carousel/1.jpg" style="max-width: 400px;">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" width="100%" src="./resources/carousel/2.jpg" style="max-width: 400px;">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" width="100%" src="./resources/carousel/3.jpg" style="max-width: 400px;">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" width="100%" src="./resources/carousel/4.jpg" style="max-width: 400px;">
-							</div>
-							</div>
+		    <h2 class="text-center mb-4">Dataset Statistics</h2>
+
+		    <div class="row g-3 text-center">
+
+		        <!-- Card 1: Images -->
+		        <div class="col-lg-4 col-md-6 col-6">
+		            <div class="stat-card">
+		                <h2>67,620</h2>
+		                <p>Ultrasound Images</p>
+		            </div>
+		        </div>
+
+		        <!-- Card 2: Subtasks -->
+		        <div class="col-lg-4 col-md-6 col-6">
+		            <div class="stat-card">
+		                <h2>26</h2>
+		                <p>Subtasks</p>
+		            </div>
+		        </div>
+
+		        <!-- Card 3: Prediction Tasks -->
+		        <div class="col-lg-4 col-md-6 col-6">
+		            <div class="stat-card">
+		                <h2>4</h2>
+		                <p>Prediction Task Types</p>
+		            </div>
+		        </div>
+
+		        <!-- Card 4: Anatomical Targets -->
+		        <div class="col-lg-4 col-md-6 col-6">
+		            <div class="stat-card">
+		                <h2>30+</h2>
+		                <p>Anatomical and Pathological Targets</p>
+		            </div>
+		        </div>
+
+		        <!-- Card 5: Scanner Models -->
+		        <div class="col-lg-4 col-md-6 col-6">
+		            <div class="stat-card">
+		                <h2>~24</h2>
+		                <p>Scanner Models</p>
+		            </div>
+		        </div>
+
+		        <!-- Card 6: Manufacturers -->
+		        <div class="col-lg-4 col-md-6 col-6">
+		            <div class="stat-card">
+		                <h2>10+</h2>
+		                <p>Scanner Manufacturers</p>
+		            </div>
+		        </div>
+
+		    </div>
+		</section>
+		<!-- End Dataset Statistics -->
+
+
+		<!-- Representative Ultrasound Images -->
+		<section id="examples" class="container my-5">
+
+		    <h2 class="text-center mb-3">
+		        Representative Ultrasound Images
+		    </h2>
+
+		    <p class="text-center text-muted mb-4">
+		        Representative ultrasound images and annotations
+		        from different clinical domains and prediction tasks.
+		    </p>
+
+		    <div id="m2usCarousel"
+		         class="carousel slide"
+		         data-bs-ride="false"
+		         data-bs-interval="false">
+
+		        <div class="carousel-inner">
+
+		            <!-- Example 1: Segmentation -->
+		            <div class="carousel-item active">
+		                <img src="./resources/carousel/476_seg_example.png" class="d-block mx-auto carousel-image" alt="Fetal head ultrasound segmentation">
+
+		                <div class="carousel-description">
+		                    <h5>Fetal Head</h5>
+		                    <p>Maternal-fetal | Segmentation</p>
+		                </div>
+		            </div>
+
+		            <!-- Example 2: Classification -->
+		            <div class="carousel-item">
+		                <img src="./resources/carousel/malignant_75.png" class="d-block mx-auto carousel-image" alt="Cardiac ultrasound classification">
+				        <!-- Text displayed over the image -->
+				        <div class="image-label">
+				            Malignant
+				        </div>
+						<!-- Description below image -->
+						<div class="carousel-description">
+						    <h5>Breast</h5>
+						    <p>Breast | Classification</p>
 						</div>
-					</center>
-				</div>
-				<!-- end automatically fade -->
-				<!-- arrows carousel -->
-				<div class="col-sm" style="max-width: 550px;">
-					<center>
-						<div id="myCarousel" class="carousel" data-ride="carousel" data-interval="false">
-							<ol class="carousel-indicators">
-							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							<li data-target="#myCarousel" data-slide-to="1"></li>
-							<li data-target="#myCarousel" data-slide-to="2"></li>
-							<li data-target="#myCarousel" data-slide-to="3"></li>
-							</ol>
-							<div class="carousel-inner">
-							<div class="carousel-item active" >
-								<img class="d-block" src="./resources/carousel/1.jpg" style="max-width: 400px;">
-								<div class="carousel-caption d-none d-md-block">
-									<h5>Images can also have title</h5>
-									<p>and also text!</p>
-								  </div>
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" src="./resources/carousel/2.jpg" style="max-width: 400px;">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" src="./resources/carousel/3.jpg" style="max-width: 400px;">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" src="./resources/carousel/4.jpg" style="max-width: 400px;">
-							</div>
-							</div>
-							<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-								<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
-							<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-								<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
-							<span class="sr-only">Next</span>
-							</a>
-						</div>
-					</center>
-				</div>
-				<!-- end arrows carousel -->
-			</div>
-		</div>
-		<!-- end image carousel -->
-		<!-- image slider -->
-		<div class="container">
-			<p  style="margin-top: 35px;">
-			Images can also be changes using an image slider 
-			</p>
-		</div>
-		<div class="container">
-			<div class="row justify-content-md-center">
-				<!-- first option for image slider -->
-				<div class="col-sm" style="max-width: 350px;">
-					<center>
-					<img src="./resources/dropdown/dropdown3/1.png" id="imgChange-dropdown3" style="max-width: 300px;">
-					<p id="txtChange-dropdown3" style="margin-top: 5px;">Image 1</p>
-					<input type="range" min="1" max="4" step="1" value="1" class="form-range custom-range" id="range-dropdown3" style="max-width: 300px;">
-					</center>
-				</div>
-				<!-- end first option for image slider -->
-				<!-- second option for image slider -->
-				<div class="col-sm" style="max-width: 350px;">
-					<center>
-					<div class="range-slider">
-						<img src="./resources/dropdown/dropdown2/1.png" id="imgChange-dropdown2" style="max-width: 300px;">
-						<input type="range" min="1" max="4" step="1" value="1" class="custom-range2" id="range-dropdown2" style="width: 300px; margin-top: 5px;" list="values">
-						<datalist id="values">
-							<option value="1"></option>
-							<option value="2"></option>
-							<option value="3"></option>
-							<option value="4"></option>
-						</datalist>
-						<div class="range-ticks" style="width: 300px;">
-							<span>First Image</span>
-							<span>Second Image</span>
-							<span>Third Image</span>
-							<span>Fourth Image</span>
-						</div>
-					</div>
-					</center>
-				</div>
-				<!-- end second option for image slider -->
-			</div>
-		</div>
-		<!-- end image slider -->
+		            </div>
 
-		<!-- image overlay -->
-		<div class="container">
-			<p  style="margin-top: 35px;">
-			One can also using image overlay to show how an image is looked after editing, or use before and after slider  
-			</p>
-		</div>
-		<div class="container" style="margin-bottom: 70px;">
-			<div class="row justify-content-md-center">
-				<div class="col-sm" style="max-width: 350px;">
-					<center>
-						<div class="overlay-container">
-							<img src="./resources/dropdown/dropdown1/1.png" style="max-width: 300px;">
-							<div class="overlay-image">
-							  <img src="./resources/dropdown/dropdown1/3.png" style="max-width: 300px;">
-							  <p class="text-info">text describing the image</p>
-							</div>
-						  </div>	
-					</center>
-				</div>
-				<div class="col-sm" style="max-width: 350px;">
-					<center>
-						<div class="overlay-container">
-							<img src="./resources/dropdown/dropdown2/3.png" style="max-width: 300px;">
-							<div class="overlay-image-2">
-							  <img src="./resources/dropdown/dropdown2/4.png" style="max-width: 300px; opacity: 0.5 !important;">
-							  <p class="text-info" style="opacity: 1 !important;">this overlay image has opacity smaller than 1</p>
-							</div>
-						  </div>
-					</center>					  
-				</div>
-				<!-- before and after image slider -->
-				<div class="col-sm" style="max-width: 350px;">
-					<center>
-						<div class="container-ba-slider">
-							<div class="before">
-							  <img src="./resources/dropdown/dropdown2/2.png" draggable="false" style="max-width: 300px;"/> 
-							</div>
-							<div class="after">
-							  <img src="./resources/carousel/2.jpg" draggable="false" style="max-width: 300px;"/>
-							</div>
-							<div class="scroller">
-								<svg class="scroller-thumb" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512">
-									<style>svg{fill:#62dbff}</style>
-									<path d="M504.3 273.6c4.9-4.5 7.7-10.9 7.7-17.6s-2.8-13-7.7-17.6l-112-104c-7-6.5-17.2-8.2-25.9-4.4s-14.4 12.5-14.4 22l0 56-192 0 0-56c0-9.5-5.7-18.2-14.4-22s-18.9-2.1-25.9 4.4l-112 104C2.8 243 0 249.3 0 256s2.8 13 7.7 17.6l112 104c7 6.5 17.2 8.2 25.9 4.4s14.4-12.5 14.4-22l0-56 192 0 0 56c0 9.5 5.7 18.2 14.4 22s18.9 2.1 25.9-4.4l112-104z"/>
-								</svg>
-							</div>
-						  </div>
-					</center>					  
-				</div>
-				<!-- end before and after image slider -->
-			</div>  
-		</div>
-		<!-- end image overlay -->
+		            <!-- Example 3: Detection -->
+		            <div class="carousel-item">
+		                <img src="./resources/carousel/000023_detection.png" class="d-block mx-auto carousel-image" alt="Thyroid nodule detection">
 
-		<!-- end Images -->
+		                <div class="carousel-description">
+		                    <h5>Thyroid Nodule</h5>
+		                    <p>Thyroid | Detection</p>
+		                </div>
+		            </div>
+
+		            <!-- Example 4: Regression -->
+		            <div class="carousel-item">
+		                <img src="./resources/carousel/0015_overlay.png" class="d-block mx-auto carousel-image" alt="Cervical length ultrasound regression">
+
+		                <div class="carousel-description">
+		                    <h5>Cervical Length</h5>
+		                    <p>Maternal-fetal | Regression</p>
+		                </div>
+		            </div>
+
+		        </div>
+
+		        <!-- Previous Button -->
+		        <button class="carousel-control-prev"
+		                type="button"
+		                data-bs-target="#m2usCarousel"
+		                data-bs-slide="prev">
+		            <span class="carousel-control-prev-icon"
+		                  aria-hidden="true"></span>
+		            <span class="visually-hidden">Previous</span>
+		        </button>
+
+		        <!-- Next Button -->
+		        <button class="carousel-control-next"
+		                type="button"
+		                data-bs-target="#m2usCarousel"
+		                data-bs-slide="next">
+		            <span class="carousel-control-next-icon"
+		                  aria-hidden="true"></span>
+		            <span class="visually-hidden">Next</span>
+		        </button>
+
+		        <!-- Carousel Indicators -->
+		        <div class="m2us-indicators">
+		            <button type="button"
+		                    data-bs-target="#m2usCarousel"
+		                    data-bs-slide-to="0"
+		                    class="active"
+		                    aria-current="true"
+		                    aria-label="Slide 1"></button>
+
+		            <button type="button"
+		                    data-bs-target="#m2usCarousel"
+		                    data-bs-slide-to="1"
+		                    aria-label="Slide 2"></button>
+
+		            <button type="button"
+		                    data-bs-target="#m2usCarousel"
+		                    data-bs-slide-to="2"
+		                    aria-label="Slide 3"></button>
+
+		            <button type="button"
+		                    data-bs-target="#m2usCarousel"
+		                    data-bs-slide-to="3"
+		                    aria-label="Slide 4"></button>
+		        </div>
+
+		    </div>
+		</section>
+		<!-- End Representative Ultrasound Images -->
+
+		<!-- Dataset Composition Table -->
+		<section id="datasets" class="container my-5">
+
+		  <h2 class="text-center mb-4">Dataset Composition</h2>
+
+		  <p class="text-center">
+		    Distribution of ultrasound images across prediction
+		    tasks and predefined data partitions.
+		  </p>
+
+		  <div class="table-responsive m2us-table-container">
+		    <table class="table table-bordered m2us-table">
+		      <thead class="table-dark">
+		        <tr>
+		          <th>Target</th>
+		          <th>Task ID</th>
+		          <th>Training</th>
+		          <th>Validation</th>
+		          <th>Testing</th>
+		          <th>Total</th>
+		        </tr>
+		      </thead>
+
+		      <tbody>
+		        <tr class="table-secondary">
+		          <th colspan="2">Segmentation</th>
+		          <th>15,991</th>
+		          <th>2,674</th>
+		          <th>9,584</th>
+		          <th>28,249</th>
+		        </tr>
+
+		        <tr>
+		          <td>PSFHS</td>
+		          <td>head_symphysis_multi</td>
+		          <td>3,059</td>
+		          <td>511</td>
+		          <td>1,584</td>
+		          <td>5,154</td>
+		        </tr>
+
+		        <tr>
+		          <td>Cervices</td>
+		          <td>cervix_multi</td>
+		          <td>261</td>
+		          <td>44</td>
+		          <td>1,595</td>
+		          <td>1,900</td>
+		        </tr>
+
+		        <tr>
+		          <td>Cervices os</td>
+		          <td>cervix</td>
+		          <td>327</td>
+		          <td>55</td>
+		          <td>164</td>
+		          <td>546</td>
+		        </tr>
+
+		        <tr>
+		          <td>Fetal head</td>
+		          <td>fetal_head</td>
+		          <td>2,311</td>
+		          <td>386</td>
+		          <td>1,157</td>
+		          <td>3,854</td>
+		        </tr>
+
+		        <tr>
+		          <td>Fetal lung</td>
+		          <td>lung</td>
+		          <td>1,852</td>
+		          <td>310</td>
+		          <td>927</td>
+		          <td>3,089</td>
+		        </tr>
+
+		        <tr>
+		          <td>Carotid artery</td>
+		          <td>carotid_artery</td>
+		          <td>659</td>
+		          <td>110</td>
+		          <td>331</td>
+		          <td>1,100</td>
+		        </tr>
+
+		        <tr>
+		          <td>Fetal heart</td>
+		          <td>fetal_heart</td>
+		          <td>177</td>
+		          <td>30</td>
+		          <td>93</td>
+		          <td>300</td>
+		        </tr>
+
+		        <tr>
+		          <td>Fetal abdomen</td>
+		          <td>fetal_abdomen_multi</td>
+		          <td>952</td>
+		          <td>159</td>
+		          <td>447</td>
+		          <td>1,558</td>
+		        </tr>
+
+		        <tr>
+		          <td>Ovarian tumor</td>
+		          <td>ovary_tumor</td>
+		          <td>881</td>
+		          <td>147</td>
+		          <td>441</td>
+		          <td>1,469</td>
+		        </tr>
+
+		        <tr>
+		          <td>Breast tumor</td>
+		          <td>breast_lesion</td>
+		          <td>2,219</td>
+		          <td>372</td>
+		          <td>1,118</td>
+		          <td>3,709</td>
+		        </tr>
+
+		        <tr>
+		          <td>Thyroid nodule</td>
+		          <td>thyroid_nodule</td>
+		          <td>2,094</td>
+		          <td>350</td>
+		          <td>1,049</td>
+		          <td>3,493</td>
+		        </tr>
+
+		        <tr>
+		          <td>Heart</td>
+		          <td>cardiac_multi</td>
+		          <td>1,199</td>
+		          <td>200</td>
+		          <td>678</td>
+		          <td>2,077</td>
+		        </tr>
+
+		        <tr class="table-secondary">
+		          <th colspan="2">Classification</th>
+		          <th>16,362</th>
+		          <th>2,727</th>
+		          <th>8,191</th>
+		          <th>27,280</th>
+		        </tr>
+
+		        <tr>
+		          <td>Fetal head position</td>
+		          <td>fetal_head_pos_cls</td>
+		          <td>2,546</td>
+		          <td>423</td>
+		          <td>1,274</td>
+		          <td>4,243</td>
+		        </tr>
+
+		        <tr>
+		          <td>Fetal head position</td>
+		          <td>fetal_head_pos_cls</td>
+		          <td>2,546</td>
+		          <td>423</td>
+		          <td>1,274</td>
+		          <td>4,243</td>
+		        </tr>
+
+		        <tr>
+				    <td>Fetal breech position</td>
+				    <td>fetal_sacral_pos_cls</td>
+				    <td>483</td>
+				    <td>77</td>
+				    <td>242</td>
+				    <td>802</td>
+				</tr>
+
+				<tr>
+				    <td>Lung (COVID-19)</td>
+				    <td>lung_disease_3cls</td>
+				    <td>636</td>
+				    <td>107</td>
+				    <td>319</td>
+				    <td>1,062</td>
+				</tr>
+
+				<tr>
+				    <td>Maternal-fetal standard plane</td>
+				    <td>fetal_plane_cls</td>
+				    <td>7,439</td>
+				    <td>1,240</td>
+				    <td>3,721</td>
+				    <td>12,400</td>
+				</tr>
+
+				<tr>
+				    <td>Breast tumor 3</td>
+				    <td>breast_3cls</td>
+				    <td>876</td>
+				    <td>147</td>
+				    <td>440</td>
+				    <td>1,463</td>
+				</tr>
+
+				<tr>
+				    <td>Breast tumor 2</td>
+				    <td>breast_2cls</td>
+				    <td>555</td>
+				    <td>93</td>
+				    <td>279</td>
+				    <td>927</td>
+				</tr>
+
+				<tr>
+				    <td>Liver tumor</td>
+				    <td>liver_lesion_2cls</td>
+				    <td>3,279</td>
+				    <td>547</td>
+				    <td>1,640</td>
+				    <td>5,466</td>
+				</tr>
+
+				<tr>
+				    <td>Abdominal organ</td>
+				    <td>organ_cls</td>
+				    <td>219</td>
+				    <td>37</td>
+				    <td>110</td>
+				    <td>366</td>
+				</tr>
+
+				<tr>
+				    <td>Fetal lung</td>
+				    <td>lung_2cls</td>
+				    <td>329</td>
+				    <td>56</td>
+				    <td>166</td>
+				    <td>551</td>
+				</tr>
+
+				<!-- Detection -->
+				<tr class="table-secondary">
+				    <th colspan="2">Detection</th>
+				    <th>3,515</th>
+				    <th>587</th>
+				    <th>1,759</th>
+				    <th>5,861</th>
+				</tr>
+
+				<tr>
+				    <td>Thyroid nodule</td>
+				    <td>thyroid_nodule_det</td>
+				    <td>2,999</td>
+				    <td>500</td>
+				    <td>1,501</td>
+				    <td>5,000</td>
+				</tr>
+
+				<tr>
+				    <td>Uterine fibroid</td>
+				    <td>uterine_fibroid_det</td>
+				    <td>516</td>
+				    <td>87</td>
+				    <td>258</td>
+				    <td>861</td>
+				</tr>
+
+				<!-- Regression -->
+				<tr class="table-secondary">
+				    <th colspan="2">Regression</th>
+				    <th>3,702</th>
+				    <th>617</th>
+				    <th>1,911</th>
+				    <th>6,230</th>
+				</tr>
+
+				<tr>
+				    <td>Angle of progression</td>
+				    <td>IUGC</td>
+				    <td>2,818</td>
+				    <td>470</td>
+				    <td>1,465</td>
+				    <td>4,753</td>
+				</tr>
+
+				<tr>
+				    <td>Cervical length</td>
+				    <td>FUGC</td>
+				    <td>260</td>
+				    <td>44</td>
+				    <td>134</td>
+				    <td>438</td>
+				</tr>
+
+				<tr>
+				    <td>Femur length</td>
+				    <td>fetal_femur</td>
+				    <td>624</td>
+				    <td>103</td>
+				    <td>312</td>
+				    <td>1,039</td>
+				</tr>
+
+				<!-- Total -->
+				<tr class="table-secondary">
+				    <th colspan="2">Total</th>
+				    <th>39,570</th>
+				    <th>6,605</th>
+				    <th>21,445</th>
+				    <th>67,620</th>
+				</tr>
+
+		        <!-- Add the remaining subtasks here -->
+
+		      </tbody>
+		    </table>
+		  </div>
+		</section>
+		<!-- End Dataset Composition Table -->
 
 		<!-- Paper -->
 		<hr id="paper">
@@ -509,9 +748,9 @@
 </div>
 
 <script src="functionality.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </body>
 </html>
 
