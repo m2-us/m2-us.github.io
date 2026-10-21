@@ -326,6 +326,37 @@ td {
 }
 
 
+/* M2-US Navigation Bar */
+.m2us-navbar {
+    background-color: #17649B;
+}
+
+/* M2-US logo */
+.m2us-navbar .navbar-brand {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/* Navigation menu links */
+.m2us-navbar .navbar-nav .nav-link {
+    color: #D6E2EC;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+/* Hover and active menu links */
+.m2us-navbar .navbar-nav .nav-link:hover,
+.m2us-navbar .navbar-nav .nav-link:focus,
+.m2us-navbar .navbar-nav .nav-link.active {
+    color: #FFFFFF;
+}
+
+/* Logo hover */
+.m2us-navbar .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+
 /* M2-US Dataset Statistics */
 
 .stat-card {
