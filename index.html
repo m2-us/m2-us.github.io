@@ -79,8 +79,9 @@
 
 	<div class="container-xl"> 
 		<!-- top button -->
-		<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-			<i class="fas fa-arrow-up"></i>
+		<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top" aria-label="Back to top">
+			<!-- <i class="fas fa-arrow-up"></i> -->
+			&#8593;
 		</button>
 		<!-- end top button -->
 
@@ -91,36 +92,42 @@
 			<div class="container">
 				<div class="row justify-content-md-center">
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Fangyijie Wang</a></span>
+						<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=6stMaYgAAAAJ&hl=en/" target="_blank" rel="noopener noreferrer">Fangyijie Wang<sup>1,*</sup></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Tanya Akumu</a></span>
+						<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=R4qohkUAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Tanya Akumu<sup>2</sup></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Vien Ngoc Dang</a></span>
+						<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=CuH-dtkAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Vien Ngoc Dang<sup>2</sup></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Amelia Jiménez-Sánchez</a></span>
+						<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=2xeIA9sAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Amelia Jiménez-Sánchez<sup>2</sup></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Jiancheng Yang</a></span>
+						<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=EHkDyiUAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Jiancheng Yang<sup>3</sup></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Guénolé Silvestre</a></span>
+						<span style="font-size:22px"><a href="https://www.researchgate.net/scientific-contributions/Guenole-Silvestre-54656147" target="_blank" rel="noopener noreferrer">Guénolé Silvestre<sup>1</sup></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Karim Lekadir</a></span>
+						<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=syaAztUAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Karim Lekadir<sup>2</sup></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Jieyun Bai</a></span>
+						<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=S-tEilMAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Jieyun Bai<sup>4,5,*</sup></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Kathleen Curran</a></span>
+						<span style="font-size:22px"><a href="https://scholar.google.com/citations?user=Nc1Imf4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Kathleen Curran<sup>1</sup></a></span>
 					</div>
 				</div>
 			</div>
 
-			<p class="text-center affilation" style="font-size: 20pt;">Affiliation<p>
+			<p class="text-center affilation" style="font-size: 17pt;">
+				<sup>1</sup>University College Dublin&nbsp;
+				<sup>2</sup>Universitat de Barcelona&nbsp;
+				<sup>3</sup>Aalto University&nbsp;
+				<sup>4</sup>University of Auckland&nbsp;
+				<sup>5</sup>Jinan University&nbsp;
+			<p>
 
 			<div class="container">
 				<div class="row justify-content-md-center">
@@ -145,7 +152,7 @@
 					<p  style="font-size:18px;"><strong>Teaser Image</strong></p>
 				</div> -->
 				<div class="row justify-content-md-center">
-					<img alt="" id="teaser" src="./resources/isbi_dataset_overview.png" style="max-width: 375px;"/>
+					<img alt="" id="teaser" src="./resources/isbi_dataset_overview.png" style="max-width: 600px;"/>
 				</div>
 			</div>
 		<h1 style="margin-top: 10px;">Abstract</h1>
@@ -304,7 +311,7 @@
 		        </button>
 
 		        <!-- Carousel Indicators -->
-		        <div class="m2us-indicators">
+		        <div class="carousel-indicators m2us-indicators">
 		            <button type="button"
 		                    data-bs-target="#m2usCarousel"
 		                    data-bs-slide-to="0"
@@ -667,8 +674,9 @@
 					</a>
 				</div>
 				<div class="col-md-auto" style="padding: 1px;">
-					<p style="font-size:14pt; margin-top: 5px;"><strong>Paper Name</strong><br>
-						Author 1, Author 2, Author 3, Author 4.<br>
+					<p style="font-size:14pt; margin-top: 5px;"><strong>M2-US: A Large-scale Multi-domain and Multi-task Ultrasound Image Dataset</strong><br>
+						Fangyijie Wang, Tanya Akumu, Vien Ngoc Dang, Amelia
+Jiménez-Sánchez, Jiancheng Yang, Guénolé Silvestre, Karim Lekadir, Jieyun Bai, Kathleen M. Curran<br>
 						<span><a class="btn btn-outline-primary" href='https://arxiv.org' role="button" style="font-size: 16px;"><i class="ai ai-arxiv"></i> Arxiv</a></span>
 						<span><a class="btn btn-outline-primary" href='resources/paper.pdf' role="button" style="font-size: 16px;"><i class="fas fa-file-pdf"></i> Paper</a></span>
 					</p>
@@ -694,7 +702,7 @@
 		</table>
 		<!-- end bibtex citation -->
 
-		<div class="container">
+		<!-- <div class="container">
 			<p class="text-left">
 				More results, comparison to other methods and further discussion about our model can be found in the <a href="resources/supp.pdf" target="_blank" rel="noopener noreferrer">supplementary material</a>.<br>
 				Our official code implementation can be found in the official <a href="https://github.com" target="_blank" rel="noopener noreferrer">github repository</a>.
@@ -727,7 +735,7 @@
 					</tr>
 				</tbody>
 			</table>
-		</center>
+		</center> -->
 
 		<hr>
 		<br>

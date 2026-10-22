@@ -453,25 +453,31 @@ td {
 }
 
 /* Custom indicators below description */
-.m2us-indicators {
+#m2usCarousel .m2us-indicators {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 8px;
+    margin: 15px 0 0;
+    padding: 0;
 }
 
-.m2us-indicators button {
+/* Inactive dots */
+#m2usCarousel .m2us-indicators button {
     width: 10px;
     height: 10px;
     padding: 0;
     border: none;
     border-radius: 50%;
     background-color: #cbd5e1;
-    cursor: pointer;
+    opacity: 1;
+    transition: background-color 0.2s ease;
 }
 
-.m2us-indicators button.active {
-    background-color: #17649b;
+/* Active dot */
+#m2usCarousel .m2us-indicators button.active {
+    background-color: #17649B;
+    opacity: 1;
 }
 
 /* Mobile layout */
