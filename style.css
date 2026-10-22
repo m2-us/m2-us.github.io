@@ -578,3 +578,30 @@ td {
     vertical-align: middle;
 }
 
+
+/* M2-US custom outline button */
+.btn-m2us {
+    color: #17649B !important;
+    border: 1px solid #17649B !important;
+    background-color: transparent !important;
+}
+
+/* Hover effect */
+.btn-m2us:hover,
+.btn-m2us:focus {
+    color: #FFFFFF !important;
+    background-color: #17649B !important;
+    border-color: #17649B !important;
+}
+
+/* M2-US solid button */
+.btn-m2us-solid {
+    color: #FFFFFF !important;
+    background-color: #17649B !important;
+    border: 1px solid #17649B !important;
+}
+
+.btn-m2us-solid:hover {
+    background-color: #104D78 !important;
+    border-color: #104D78 !important;
+}
